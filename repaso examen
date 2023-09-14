@@ -1,0 +1,24 @@
+def comida_rapida():
+ print("¿Cuanto fue de tu comida?")
+ comida=input()
+ print("¿De cuanto es tu cupón de descuento?")
+ cupon=input()
+ subtotal=int(comida)*(int(cupon)/100)
+ total=int(comida)- int(subtotal)
+ print("Este es tu total a pagar", total)
+
+comida_rapida()
+
+
+def calculadora_promedios():
+  print("Dime tu primer nota")
+  p1=input()
+  print("Dime tu segunda nota")
+  p2=input()
+  print("Dime tu tercera nota")
+  p3=input()
+  caluclo=int(p1)+int(p2)+int(p3)
+  promedio= int(calculo)/3
+  print("Tu promedio es", promedio)
+
+calculadora_promedios()
