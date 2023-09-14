@@ -1,0 +1,11 @@
+def calculadora_temperaturas():
+  print("¿A cuántos grados celsius estas?")
+  celsius=input()
+  fahrenheit= int(celsius)*(9/5)+32
+  print("Los fahrenheit son", fahrenheit)
+  print("¿Deseas que los celsius los combierta kelvin?")
+  kelvin=int(celsius)+273.15
+  print("Aquí esta en kelvin", kelvin)
+
+calculadora_temperaturas()
+  
